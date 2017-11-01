@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rogxxc&#39;s Blog</title>
+  
+  <subtitle>Hello world!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://rogxxc.com/"/>
+  <updated>2017-11-01T12:36:18.989Z</updated>
+  <id>http://rogxxc.com/</id>
+  
+  <author>
+    <name>Li Yan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>未来还没来</title>
+    <link href="http://rogxxc.com/2017/11/01/%E6%9C%AA%E6%9D%A5%E8%BF%98%E6%B2%A1%E6%9D%A5/"/>
+    <id>http://rogxxc.com/2017/11/01/未来还没来/</id>
+    <published>2017-11-01T11:47:16.000Z</published>
+    <updated>2017-11-01T12:36:18.989Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://oyq2mqadm.bkt.clouddn.com/%E5%A5%BD%E7%9C%8B.jpg" alt="avatar"></p><blockquote><p>“别抱怨，别自怜。所有的现状都是你自己选择的，而且当你在开口责怪这种现状的时候，你其实已经享受过它带来了的一切好处。抱怨能说明什么呢，除了你什么都想要的贪，还有你不想做努力的懒。”——转自微博</p></blockquote><p>想写一篇这段时间遇到的各种问题和解决方案，但是想了下，脑子里也没有大概的思路，等自己慢慢消化学习吧。</p><p>这篇就是我用Typora加上现学的半生不熟的markdown语法写下的，以后多写几篇应该也就熟练了吧，其实做到最后都忘了起初只是为了搭个博客方便记录。</p><p>这几个月来也发生了一些事，让人深感还是身体重要。</p><p>梦想还是要有的 万一实现了呢 </p><p><strong>未来在哪？未来是星辰大海</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://oyq2mqadm.bkt.clouddn.com/%E5%A5%BD%E7%9C%8B.jpg&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“别抱怨，别自怜。所有的现状都是你自己选择的，而且当你在开口责怪这种现状
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://rogxxc.com/2017/11/01/hello-world/"/>
+    <id>http://rogxxc.com/2017/11/01/hello-world/</id>
+    <published>2017-11-01T03:35:29.607Z</published>
+    <updated>2017-11-01T10:37:47.588Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    <img src="http://oyq2mqadm.bkt.clouddn.com/hello" alt="avatar"></p><p>  记得两年前第一次在codeblocks敲下Hello World，今天又在用Typora来学习markdown语法写下这第一篇blog。 有些后悔的是前两年如果就开始写blog，OJ也算刷了一些题，解题报告向来都是交完就删，而现在在开始刷OJ写报告的话也没那么多精力了。</p><p>  劝学里：吾尝终日而思矣，不如须臾之所学也。我想我是用这三四年去体会这句话的吧。 </p><p>​    <strong>Just do it</strong></p><p>​        </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;​    &lt;img src=&quot;http://oyq2mqadm.bkt.clouddn.com/hello&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
+&lt;p&gt;  记得两年前第一次在codeblocks敲下Hello World，今天又在用Typora来学习markdown语法写下
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
