@@ -5,9 +5,9 @@
   <subtitle>Hello world!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://rogxxc.com/"/>
+  <link href="http://yourname.com/"/>
   <updated>2017-11-01T12:36:18.989Z</updated>
-  <id>http://rogxxc.com/</id>
+  <id>http://yourname.com/</id>
   
   <author>
     <name>Li Yan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>未来还没来</title>
-    <link href="http://rogxxc.com/2017/11/01/%E6%9C%AA%E6%9D%A5%E8%BF%98%E6%B2%A1%E6%9D%A5/"/>
-    <id>http://rogxxc.com/2017/11/01/未来还没来/</id>
+    <link href="http://yourname.com/2017/11/01/%E6%9C%AA%E6%9D%A5%E8%BF%98%E6%B2%A1%E6%9D%A5/"/>
+    <id>http://yourname.com/2017/11/01/未来还没来/</id>
     <published>2017-11-01T11:47:16.000Z</published>
     <updated>2017-11-01T12:36:18.989Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://rogxxc.com/2017/11/01/hello-world/"/>
-    <id>http://rogxxc.com/2017/11/01/hello-world/</id>
+    <link href="http://yourname.com/2017/11/01/hello-world/"/>
+    <id>http://yourname.com/2017/11/01/hello-world/</id>
     <published>2017-11-01T03:35:29.607Z</published>
     <updated>2017-11-01T10:37:47.588Z</updated>
     
