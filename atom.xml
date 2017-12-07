@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yourname.com/"/>
-  <updated>2017-12-07T08:22:06.714Z</updated>
+  <updated>2017-12-07T10:07:11.662Z</updated>
   <id>http://yourname.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在新电脑上还原hexo博客</title>
+    <link href="http://yourname.com/2017/12/07/%E5%9C%A8%E6%96%B0%E7%94%B5%E8%84%91%E4%B8%8A%E8%BF%98%E5%8E%9Fhexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yourname.com/2017/12/07/在新电脑上还原hexo博客/</id>
+    <published>2017-12-07T09:03:21.000Z</published>
+    <updated>2017-12-07T10:07:11.662Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>当在重装系统/换了新电脑时能继续更新blog，前提是有hexo源文件的情况下，推荐把hexo的源文件也推到github上的另一个分支里（不是master分支），这里只指上述情况如何恢复。</p></blockquote><p>因为之前想学习linux系统，安装了ubuntu，安装好后又删除了win10系统，导致了blog配置文件丢失，这里记录一下解决过程。</p><p>​    首先是在单ubuntu系统下安装win10，经过简单google发现并不能在ubuntu下安装win10（google的网友答复），双系统也得先安装win10. 这里用其他电脑制作了一个U盘启动（随意u盘启动制作工具加一个系统iso文件） 进电脑blos设置U盘首选项启动，进入winpe首先对硬盘进行重新分区（注意备份数据，因为自己把分区表弄乱了<strong>这一步不必要</strong>） 格式化之前的系统分区（ubuntu就没了） 然后用桌面上的pe装机工具加载iso系统文件进行安装，这一步就完成了。</p><p>​    然后是在新的系统恢复hexo的文件，我这里有源文件在的，即source、themes、package.json、_config.yml这些文件，之前在别的blog和知乎里看到很多答案，写的都较为复杂，这里的操作只指符合开头条件的情况下。</p><p>首先安装git：<a href="https://git-scm.com/download/win" target="_blank" rel="external">https://git-scm.com/download/win</a></p><p>默认下一步即可。</p><p>将源文件粘贴到你要放置的位置，进入文件夹内</p><p>将你的git和github、coding帐号绑定：右击打开gitBash 输入</p><blockquote><p>git config –global user.name “你的GitHub/Coding用户名”</p><p>git config –global user.email “你的GitHub/Coding注册邮箱”</p></blockquote><p>因为我们用ssh来同步blog内容，生成ssh密钥：</p><blockquote><p>ssh-keygen -t rsa -C “你的注册邮箱”</p></blockquote><p>连续三个回车，命令行出现一个类似图形的东西即可。</p><p>回到github和coding重新建立新的key，把在.ssh目录下生成的后缀为pub的公钥内容复制下来粘贴进去。</p><p>安装node.js：<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a></p><p>此时安装了包含环境变量和npm</p><p>这里注意npm国内使用速度很慢且不稳定 这里考虑用taobao的cnpm代替</p><p>地址：<a href="https://npm.taobao.org/" target="_blank" rel="external">https://npm.taobao.org/</a></p><p>还是在git bush里 安装hexo</p><blockquote><p>cnpm install -g hexo-cli </p></blockquote><p>因为我是直接复制了整个hexo源文件，所以进入blog所在的文件夹在git bush里执行</p><blockquote><p>cnpm install hexo-deployer-git –save</p></blockquote><p>此时如果出现下图</p><p><img src="http://oyq2mqadm.bkt.clouddn.com/ssh" alt="avatar"></p><p>输入yes即可</p><blockquote><p>很多人在用ssh git@github.com测试时也会出现最后要求输入yes or no的内容，经过我很久时间的google才 发现输入yes就好了…..尴尬</p></blockquote><p><strong>好了，这时候你就可以继续更新blog了，再次提醒 只适用于开头所提条件，另外不要在备份好的源文件下按照网上教程 输入hexo init 那样会覆盖掉你所有配置好的文件，直接gg</strong>  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;当在重装系统/换了新电脑时能继续更新blog，前提是有hexo源文件的情况下，推荐把hexo的源文件也推到github上的另一个分支里（不是master分支），这里只指上述情况如何恢复。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因为之前想学习li
+      
+    
+    </summary>
+    
+    
+      <category term="还原，hexo" scheme="http://yourname.com/tags/%E8%BF%98%E5%8E%9F%EF%BC%8Chexo/"/>
+    
+  </entry>
   
   <entry>
     <title>难过</title>
